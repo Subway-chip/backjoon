@@ -2,16 +2,13 @@ import java.util.Scanner;
  
 public class Main {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 		
-		int N = in.nextInt();
-		in.close();
-        
-		int i = 1;
-        
-		while(i<= N) {
+		int N = sc.nextInt();
+		sc.close();
+		
+		for(int i=1 ; i<=N ; i++) {
 			System.out.println(i);
-			i++;
 		}
 	}
 }
