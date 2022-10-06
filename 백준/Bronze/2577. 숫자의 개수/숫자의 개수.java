@@ -12,11 +12,11 @@ public class Main {
 
 		String result = A * B * C + "";
 
-		for (int j = 0; j < 10; j++) {
+		for (int i = 0; i < 10; i++) {
 			int count = 0;
-			for (int i = 0; i < result.length(); i++) {
-				String a = result.charAt(i) + "";
-				if (a.equals(j + "")) {
+			for (int j = 0; j < result.length(); j++) {
+				String a = result.charAt(j) + "";
+				if (a.equals(i + "")) {
 					count++;
 				}
 			}
